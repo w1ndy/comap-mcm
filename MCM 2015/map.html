@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+
+<meta name="dcterms.created" content="Tue, 08 Jan 2013 05:31:17 GMT">
+    <meta name="description" content="">
+
+<meta name="keywords" content="">
+
+<title></title>
+
+<script
+src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false&language=en">
+</script>
+
+<script>
+
+var geocoder, map;
+
+function initialize() {
+
+geocoder = new google.maps.Geocoder();
+
+var latlng = new google.maps.LatLng(10, 10);
+
+var myOptions = {
+    zoom: 0,
+    center: latlng,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+
+map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+//codeAddress("BO,SIERRA LEONE");
+//codeAddress("RIVER GEE, LIBERIA");
+//codeAddress("COYAH, GUINEA");
+//codeAddress("N'ZEREKORE, GUINEA");
+//codeAddress("KOUROUSSA, GUINEA");
+codeAddress("BOMI,LIBERIA");
+codeAddress("RIVER GEE, LIBERIA");
+codeAddress("BOFFA,GUINEA");
+codeAddress("N'ZEREKORE, GUINEA");
+codeAddress("DABOLA, GUINEA");
+}
+
+
+function codeAddress(address) {
+
+geocoder.geocode( { 'address': address}, function(results, status) {
+
+if (status == google.maps.GeocoderStatus.OK) {
+
+map.setCenter(results[0].geometry.location);
+
+var marker = new google.maps.Marker({
+
+map: map,
+
+position: results[0].geometry.location
+      });
+
+}
+else {
+
+alert("Geocode was not successful for the following reason: " + status);
+    }
+  });
+}
+
+</script>
+
+</head>
+
+<body onload="initialize()">
+ <div id="map_canvas" style="width: 640px; height: 480px;"></div>
+
+</body>
+</html>

@@ -1,0 +1,624 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="infected" type="integer" />
+      <attribute id="1" title="vis" type="string" />
+    </attributes>
+    <nodes>
+      <node id="MALI,Guinea" label="MALI,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="BOKE,Guinea" label="BOKE,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="CONAKRY,Guinea" label="CONAKRY,Guinea">
+        <attvalues>
+          <attvalue for="1" value="{'size': 7.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="TOUGUE,Guinea" label="TOUGUE,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="KENEMA,Sierra+Leone" label="KENEMA,Sierra+Leone">
+        <attvalues>
+          <attvalue for="1" value="{'size': 1.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="MONTSERRADO,Liberia" label="MONTSERRADO,Liberia">
+        <attvalues>
+          <attvalue for="1" value="{'size': 1.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="FARANAH,Guinea" label="FARANAH,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="KISSIDOUGO,Guinea" label="KISSIDOUGO,Guinea">
+        <attvalues>
+          <attvalue for="1" value="{'size': 1.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="RIVER+GEE,Liberia" label="RIVER+GEE,Liberia">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="LOFA,Liberia" label="LOFA,Liberia">
+        <attvalues>
+          <attvalue for="1" value="{'size': 2.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="FREETOWN,Sierra+Leone" label="FREETOWN,Sierra+Leone">
+        <attvalues>
+          <attvalue for="1" value="{'size': 1.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="MOYAMBA,Sierra+Leone" label="MOYAMBA,Sierra+Leone">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="BOFFA,Guinea" label="BOFFA,Guinea">
+        <attvalues>
+          <attvalue for="1" value="{'size': 7.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="MARGIBI,Liberia" label="MARGIBI,Liberia">
+        <attvalues>
+          <attvalue for="1" value="{'size': 1.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="DUBREKA,Guinea" label="DUBREKA,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="N'ZEREKORE,Guinea" label="N'ZEREKORE,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="FORECARIAH,Guinea" label="FORECARIAH,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="GRAND+GEDEH,Liberia" label="GRAND+GEDEH,Liberia">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="KEROUANE,Guinea" label="KEROUANE,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="TONKOLILI,Sierra+Leone" label="TONKOLILI,Sierra+Leone">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="MACENTA,Guinea" label="MACENTA,Guinea">
+        <attvalues>
+          <attvalue for="1" value="{'size': 1.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="PITA,Guinea" label="PITA,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="PUJEHUN,Sierra+Leone" label="PUJEHUN,Sierra+Leone">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="KAMBIA,Sierra+Leone" label="KAMBIA,Sierra+Leone">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="COYAH,Guinea" label="COYAH,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="NIMBA,Liberia" label="NIMBA,Liberia">
+        <attvalues>
+          <attvalue for="1" value="{'size': 2.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="BOMI,Liberia" label="BOMI,Liberia">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="GUECKEDOU,Guinea" label="GUECKEDOU,Guinea">
+        <attvalues>
+          <attvalue for="1" value="{'size': 6.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="BOMBALI,Sierra+Leone" label="BOMBALI,Sierra+Leone">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="SINOE,Liberia" label="SINOE,Liberia">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="DALABA,Guinea" label="DALABA,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="BEYLA,Guinea" label="BEYLA,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="YOMOU,Guinea" label="YOMOU,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="SIGUIRI,Guinea" label="SIGUIRI,Guinea">
+        <attvalues>
+          <attvalue for="1" value="{'size': 1.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="KONO,Sierra+Leone" label="KONO,Sierra+Leone">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="TELIMELE,Guinea" label="TELIMELE,Guinea">
+        <attvalues>
+          <attvalue for="1" value="{'size': 2.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="FRIA,Guinea" label="FRIA,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="BO,Sierra+Leone" label="BO,Sierra+Leone">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="DABOLA,Guinea" label="DABOLA,Guinea">
+        <attvalues>
+          <attvalue for="1" value="{'size': 2.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="GRAND+BASSA,Liberia" label="GRAND+BASSA,Liberia">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="PORT+LOKO,Sierra+Leone" label="PORT+LOKO,Sierra+Leone">
+        <attvalues>
+          <attvalue for="1" value="{'size': 2.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="GBARPOLU,Liberia" label="GBARPOLU,Liberia">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="WESTERN+RURAL,Sierra+Leone" label="WESTERN+RURAL,Sierra+Leone">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="GRAND+KRU,Liberia" label="GRAND+KRU,Liberia">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="DINGUIRAYE,Guinea" label="DINGUIRAYE,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="LOLA,Guinea" label="LOLA,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="KAILAHUN,Sierra+Leone" label="KAILAHUN,Sierra+Leone">
+        <attvalues>
+          <attvalue for="1" value="{'size': 28.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="RIVERCESS,Liberia" label="RIVERCESS,Liberia">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="MARYLAND,Liberia" label="MARYLAND,Liberia">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="KOUROUSSA,Guinea" label="KOUROUSSA,Guinea">
+        <attvalues>
+          <attvalue for="1" value="{'size': 1.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="KINDIA,Guinea" label="KINDIA,Guinea">
+        <attvalues>
+          <attvalue for="1" value="{'size': 1.0}" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="KANKAN,Guinea" label="KANKAN,Guinea">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="MALI,Guinea" target="TOUGUE,Guinea" weight="5.31277777778" />
+      <edge id="1" source="MALI,Guinea" target="BOKE,Guinea" weight="0.219444444444" />
+      <edge id="2" source="MALI,Guinea" target="PITA,Guinea" weight="5.83944444444" />
+      <edge id="3" source="MALI,Guinea" target="TELIMELE,Guinea" weight="1.77722222222" />
+      <edge id="4" source="BOKE,Guinea" target="FORECARIAH,Guinea" weight="0.932777777778" />
+      <edge id="5" source="BOKE,Guinea" target="TELIMELE,Guinea" weight="4.13166666667" />
+      <edge id="6" source="BOKE,Guinea" target="FRIA,Guinea" weight="3.15" />
+      <edge id="7" source="BOKE,Guinea" target="KINDIA,Guinea" weight="1.07166666667" />
+      <edge id="8" source="BOKE,Guinea" target="CONAKRY,Guinea" weight="1.69111111111" />
+      <edge id="9" source="BOKE,Guinea" target="DUBREKA,Guinea" weight="2.82888888889" />
+      <edge id="10" source="BOKE,Guinea" target="BOFFA,Guinea" weight="5.81388888889" />
+      <edge id="11" source="BOKE,Guinea" target="COYAH,Guinea" weight="2.21611111111" />
+      <edge id="12" source="CONAKRY,Guinea" target="BOMBALI,Sierra+Leone" weight="1.66944444444" />
+      <edge id="13" source="CONAKRY,Guinea" target="FORECARIAH,Guinea" weight="7.30666666667" />
+      <edge id="14" source="CONAKRY,Guinea" target="PORT+LOKO,Sierra+Leone" weight="4.72944444444" />
+      <edge id="15" source="CONAKRY,Guinea" target="WESTERN+RURAL,Sierra+Leone" weight="2.47944444444" />
+      <edge id="16" source="CONAKRY,Guinea" target="TONKOLILI,Sierra+Leone" weight="0.618333333333" />
+      <edge id="17" source="CONAKRY,Guinea" target="PITA,Guinea" weight="0.601666666667" />
+      <edge id="18" source="CONAKRY,Guinea" target="FRIA,Guinea" weight="5.81111111111" />
+      <edge id="19" source="CONAKRY,Guinea" target="TELIMELE,Guinea" weight="3.23277777778" />
+      <edge id="20" source="CONAKRY,Guinea" target="KAMBIA,Sierra+Leone" weight="6.055" />
+      <edge id="21" source="CONAKRY,Guinea" target="COYAH,Guinea" weight="8.59" />
+      <edge id="22" source="CONAKRY,Guinea" target="KINDIA,Guinea" weight="6.39055555556" />
+      <edge id="23" source="CONAKRY,Guinea" target="FREETOWN,Sierra+Leone" weight="1.50333333333" />
+      <edge id="24" source="CONAKRY,Guinea" target="MOYAMBA,Sierra+Leone" weight="1.52166666667" />
+      <edge id="25" source="CONAKRY,Guinea" target="BOFFA,Guinea" weight="5.87444444444" />
+      <edge id="26" source="CONAKRY,Guinea" target="DUBREKA,Guinea" weight="8.61611111111" />
+      <edge id="27" source="TOUGUE,Guinea" target="DINGUIRAYE,Guinea" weight="1.98944444444" />
+      <edge id="28" source="TOUGUE,Guinea" target="PITA,Guinea" weight="6.19277777778" />
+      <edge id="29" source="TOUGUE,Guinea" target="TELIMELE,Guinea" weight="1.95" />
+      <edge id="30" source="TOUGUE,Guinea" target="DABOLA,Guinea" weight="1.41" />
+      <edge id="31" source="TOUGUE,Guinea" target="KINDIA,Guinea" weight="1.00888888889" />
+      <edge id="32" source="KENEMA,Sierra+Leone" target="BOMBALI,Sierra+Leone" weight="2.60833333333" />
+      <edge id="33" source="KENEMA,Sierra+Leone" target="KONO,Sierra+Leone" weight="5.83611111111" />
+      <edge id="34" source="KENEMA,Sierra+Leone" target="WESTERN+RURAL,Sierra+Leone" weight="2.74277777778" />
+      <edge id="35" source="KENEMA,Sierra+Leone" target="FORECARIAH,Guinea" weight="0.0544444444444" />
+      <edge id="36" source="KENEMA,Sierra+Leone" target="PORT+LOKO,Sierra+Leone" weight="2.68888888889" />
+      <edge id="37" source="KENEMA,Sierra+Leone" target="TONKOLILI,Sierra+Leone" weight="4.12" />
+      <edge id="38" source="KENEMA,Sierra+Leone" target="MACENTA,Guinea" weight="1.14777777778" />
+      <edge id="39" source="KENEMA,Sierra+Leone" target="MONTSERRADO,Liberia" weight="0.896666666667" />
+      <edge id="40" source="KENEMA,Sierra+Leone" target="BOMI,Liberia" weight="3.92111111111" />
+      <edge id="41" source="KENEMA,Sierra+Leone" target="KAILAHUN,Sierra+Leone" weight="6.54722222222" />
+      <edge id="42" source="KENEMA,Sierra+Leone" target="KAMBIA,Sierra+Leone" weight="1.29222222222" />
+      <edge id="43" source="KENEMA,Sierra+Leone" target="KISSIDOUGO,Guinea" weight="1.26888888889" />
+      <edge id="44" source="KENEMA,Sierra+Leone" target="BO,Sierra+Leone" weight="7.99" />
+      <edge id="45" source="KENEMA,Sierra+Leone" target="LOFA,Liberia" weight="2.72222222222" />
+      <edge id="46" source="KENEMA,Sierra+Leone" target="FREETOWN,Sierra+Leone" weight="1.91111111111" />
+      <edge id="47" source="KENEMA,Sierra+Leone" target="MOYAMBA,Sierra+Leone" weight="5.18611111111" />
+      <edge id="48" source="KENEMA,Sierra+Leone" target="PUJEHUN,Sierra+Leone" weight="6.94222222222" />
+      <edge id="49" source="KENEMA,Sierra+Leone" target="MARGIBI,Liberia" weight="0.857222222222" />
+      <edge id="50" source="KENEMA,Sierra+Leone" target="GUECKEDOU,Guinea" weight="3.36333333333" />
+      <edge id="51" source="MONTSERRADO,Liberia" target="N'ZEREKORE,Guinea" weight="1.21833333333" />
+      <edge id="52" source="MONTSERRADO,Liberia" target="GRAND+BASSA,Liberia" weight="3.80555555556" />
+      <edge id="53" source="MONTSERRADO,Liberia" target="YOMOU,Guinea" weight="2.98611111111" />
+      <edge id="54" source="MONTSERRADO,Liberia" target="LOLA,Guinea" weight="1.02833333333" />
+      <edge id="55" source="MONTSERRADO,Liberia" target="PUJEHUN,Sierra+Leone" weight="1.395" />
+      <edge id="56" source="MONTSERRADO,Liberia" target="BO,Sierra+Leone" weight="0.353888888889" />
+      <edge id="57" source="MONTSERRADO,Liberia" target="LOFA,Liberia" weight="1.40111111111" />
+      <edge id="58" source="MONTSERRADO,Liberia" target="NIMBA,Liberia" weight="1.16277777778" />
+      <edge id="59" source="MONTSERRADO,Liberia" target="BOMI,Liberia" weight="6.15055555556" />
+      <edge id="60" source="MONTSERRADO,Liberia" target="MARGIBI,Liberia" weight="8.29611111111" />
+      <edge id="61" source="FARANAH,Guinea" target="BOMBALI,Sierra+Leone" weight="1.59888888889" />
+      <edge id="62" source="FARANAH,Guinea" target="KONO,Sierra+Leone" weight="1.03722222222" />
+      <edge id="63" source="FARANAH,Guinea" target="DALABA,Guinea" weight="3.08555555556" />
+      <edge id="64" source="FARANAH,Guinea" target="PORT+LOKO,Sierra+Leone" weight="0.912222222222" />
+      <edge id="65" source="FARANAH,Guinea" target="DINGUIRAYE,Guinea" weight="0.988888888889" />
+      <edge id="66" source="FARANAH,Guinea" target="KEROUANE,Guinea" weight="2.45555555556" />
+      <edge id="67" source="FARANAH,Guinea" target="TONKOLILI,Sierra+Leone" weight="1.82111111111" />
+      <edge id="68" source="FARANAH,Guinea" target="MACENTA,Guinea" weight="3.01555555556" />
+      <edge id="69" source="FARANAH,Guinea" target="PITA,Guinea" weight="2.26833333333" />
+      <edge id="70" source="FARANAH,Guinea" target="SIGUIRI,Guinea" weight="0.66" />
+      <edge id="71" source="FARANAH,Guinea" target="KAILAHUN,Sierra+Leone" weight="1.23" />
+      <edge id="72" source="FARANAH,Guinea" target="KISSIDOUGO,Guinea" weight="6.41555555556" />
+      <edge id="73" source="FARANAH,Guinea" target="DABOLA,Guinea" weight="3.59666666667" />
+      <edge id="74" source="FARANAH,Guinea" target="KINDIA,Guinea" weight="1.51777777778" />
+      <edge id="75" source="FARANAH,Guinea" target="KOUROUSSA,Guinea" weight="4.74277777778" />
+      <edge id="76" source="FARANAH,Guinea" target="LOFA,Liberia" weight="1.44777777778" />
+      <edge id="77" source="FARANAH,Guinea" target="KANKAN,Guinea" weight="3.49277777778" />
+      <edge id="78" source="FARANAH,Guinea" target="GUECKEDOU,Guinea" weight="4.33166666667" />
+      <edge id="79" source="KISSIDOUGO,Guinea" target="N'ZEREKORE,Guinea" weight="3.02444444444" />
+      <edge id="80" source="KISSIDOUGO,Guinea" target="DALABA,Guinea" weight="5.88722222222" />
+      <edge id="81" source="KISSIDOUGO,Guinea" target="BEYLA,Guinea" weight="3.04055555556" />
+      <edge id="82" source="KISSIDOUGO,Guinea" target="KEROUANE,Guinea" weight="5.91333333333" />
+      <edge id="83" source="KISSIDOUGO,Guinea" target="MACENTA,Guinea" weight="6.47333333333" />
+      <edge id="84" source="KISSIDOUGO,Guinea" target="KAILAHUN,Sierra+Leone" weight="4.68833333333" />
+      <edge id="85" source="KISSIDOUGO,Guinea" target="LOLA,Guinea" weight="2.04777777778" />
+      <edge id="86" source="KISSIDOUGO,Guinea" target="SIGUIRI,Guinea" weight="1.77666666667" />
+      <edge id="87" source="KISSIDOUGO,Guinea" target="YOMOU,Guinea" weight="1.59777777778" />
+      <edge id="88" source="KISSIDOUGO,Guinea" target="DABOLA,Guinea" weight="0.201111111111" />
+      <edge id="89" source="KISSIDOUGO,Guinea" target="KOUROUSSA,Guinea" weight="2.96666666667" />
+      <edge id="90" source="KISSIDOUGO,Guinea" target="LOFA,Liberia" weight="4.90555555556" />
+      <edge id="91" source="KISSIDOUGO,Guinea" target="KANKAN,Guinea" weight="5.04944444444" />
+      <edge id="92" source="KISSIDOUGO,Guinea" target="GUECKEDOU,Guinea" weight="7.78944444444" />
+      <edge id="93" source="RIVER+GEE,Liberia" target="SINOE,Liberia" weight="4.22944444444" />
+      <edge id="94" source="RIVER+GEE,Liberia" target="MARYLAND,Liberia" weight="7.21222222222" />
+      <edge id="95" source="RIVER+GEE,Liberia" target="GRAND+KRU,Liberia" weight="6.67555555556" />
+      <edge id="96" source="RIVER+GEE,Liberia" target="GRAND+GEDEH,Liberia" weight="5.80055555556" />
+      <edge id="97" source="LOFA,Liberia" target="KONO,Sierra+Leone" weight="1.03777777778" />
+      <edge id="98" source="LOFA,Liberia" target="KAILAHUN,Sierra+Leone" weight="6.12777777778" />
+      <edge id="99" source="LOFA,Liberia" target="N'ZEREKORE,Guinea" weight="5.02222222222" />
+      <edge id="100" source="LOFA,Liberia" target="DALABA,Guinea" weight="0.985" />
+      <edge id="101" source="LOFA,Liberia" target="BEYLA,Guinea" weight="4.75111111111" />
+      <edge id="102" source="LOFA,Liberia" target="KEROUANE,Guinea" weight="4.96722222222" />
+      <edge id="103" source="LOFA,Liberia" target="MACENTA,Guinea" weight="8.14777777778" />
+      <edge id="104" source="LOFA,Liberia" target="LOLA,Guinea" weight="4.04555555556" />
+      <edge id="105" source="LOFA,Liberia" target="YOMOU,Guinea" weight="5.07833333333" />
+      <edge id="106" source="LOFA,Liberia" target="BO,Sierra+Leone" weight="0.818333333333" />
+      <edge id="107" source="LOFA,Liberia" target="KANKAN,Guinea" weight="0.147777777778" />
+      <edge id="108" source="LOFA,Liberia" target="GRAND+BASSA,Liberia" weight="0.97" />
+      <edge id="109" source="LOFA,Liberia" target="NIMBA,Liberia" weight="1.30055555556" />
+      <edge id="110" source="LOFA,Liberia" target="MARGIBI,Liberia" weight="2.13888888889" />
+      <edge id="111" source="LOFA,Liberia" target="GUECKEDOU,Guinea" weight="6.07444444444" />
+      <edge id="112" source="FREETOWN,Sierra+Leone" target="BOMBALI,Sierra+Leone" weight="3.09777777778" />
+      <edge id="113" source="FREETOWN,Sierra+Leone" target="KONO,Sierra+Leone" weight="0.447777777778" />
+      <edge id="114" source="FREETOWN,Sierra+Leone" target="WESTERN+RURAL,Sierra+Leone" weight="8.78111111111" />
+      <edge id="115" source="FREETOWN,Sierra+Leone" target="FORECARIAH,Guinea" weight="3.96944444444" />
+      <edge id="116" source="FREETOWN,Sierra+Leone" target="PORT+LOKO,Sierra+Leone" weight="6.72555555556" />
+      <edge id="117" source="FREETOWN,Sierra+Leone" target="TONKOLILI,Sierra+Leone" weight="3.39777777778" />
+      <edge id="118" source="FREETOWN,Sierra+Leone" target="KAMBIA,Sierra+Leone" weight="5.20722222222" />
+      <edge id="119" source="FREETOWN,Sierra+Leone" target="BO,Sierra+Leone" weight="3.685" />
+      <edge id="120" source="FREETOWN,Sierra+Leone" target="KINDIA,Guinea" weight="0.502777777778" />
+      <edge id="121" source="FREETOWN,Sierra+Leone" target="COYAH,Guinea" weight="2.77555555556" />
+      <edge id="122" source="FREETOWN,Sierra+Leone" target="MOYAMBA,Sierra+Leone" weight="6.79" />
+      <edge id="123" source="FREETOWN,Sierra+Leone" target="PUJEHUN,Sierra+Leone" weight="1.69333333333" />
+      <edge id="124" source="FREETOWN,Sierra+Leone" target="DUBREKA,Guinea" weight="1.95055555556" />
+      <edge id="125" source="MOYAMBA,Sierra+Leone" target="BOMBALI,Sierra+Leone" weight="3.48277777778" />
+      <edge id="126" source="MOYAMBA,Sierra+Leone" target="KONO,Sierra+Leone" weight="2.07" />
+      <edge id="127" source="MOYAMBA,Sierra+Leone" target="BO,Sierra+Leone" weight="6.97555555556" />
+      <edge id="128" source="MOYAMBA,Sierra+Leone" target="FORECARIAH,Guinea" weight="4.00944444444" />
+      <edge id="129" source="MOYAMBA,Sierra+Leone" target="PORT+LOKO,Sierra+Leone" weight="6.64388888889" />
+      <edge id="130" source="MOYAMBA,Sierra+Leone" target="WESTERN+RURAL,Sierra+Leone" weight="7.675" />
+      <edge id="131" source="MOYAMBA,Sierra+Leone" target="TONKOLILI,Sierra+Leone" weight="4.94555555556" />
+      <edge id="132" source="MOYAMBA,Sierra+Leone" target="KAILAHUN,Sierra+Leone" weight="1.88388888889" />
+      <edge id="133" source="MOYAMBA,Sierra+Leone" target="BOMI,Liberia" weight="0.676666666667" />
+      <edge id="134" source="MOYAMBA,Sierra+Leone" target="KAMBIA,Sierra+Leone" weight="5.24722222222" />
+      <edge id="135" source="MOYAMBA,Sierra+Leone" target="COYAH,Guinea" weight="2.81555555556" />
+      <edge id="136" source="MOYAMBA,Sierra+Leone" target="KINDIA,Guinea" weight="0.542777777778" />
+      <edge id="137" source="MOYAMBA,Sierra+Leone" target="PUJEHUN,Sierra+Leone" weight="4.98388888889" />
+      <edge id="138" source="MOYAMBA,Sierra+Leone" target="DUBREKA,Guinea" weight="1.99055555556" />
+      <edge id="139" source="BOFFA,Guinea" target="FORECARIAH,Guinea" weight="5.05055555556" />
+      <edge id="140" source="BOFFA,Guinea" target="PORT+LOKO,Sierra+Leone" weight="2.47333333333" />
+      <edge id="141" source="BOFFA,Guinea" target="WESTERN+RURAL,Sierra+Leone" weight="0.223888888889" />
+      <edge id="142" source="BOFFA,Guinea" target="PITA,Guinea" weight="0.0188888888889" />
+      <edge id="143" source="BOFFA,Guinea" target="FRIA,Guinea" weight="7.26777777778" />
+      <edge id="144" source="BOFFA,Guinea" target="TELIMELE,Guinea" weight="4.69" />
+      <edge id="145" source="BOFFA,Guinea" target="KAMBIA,Sierra+Leone" weight="3.79888888889" />
+      <edge id="146" source="BOFFA,Guinea" target="KINDIA,Guinea" weight="4.13444444444" />
+      <edge id="147" source="BOFFA,Guinea" target="COYAH,Guinea" weight="6.33388888889" />
+      <edge id="148" source="BOFFA,Guinea" target="DUBREKA,Guinea" weight="6.94666666667" />
+      <edge id="149" source="MARGIBI,Liberia" target="N'ZEREKORE,Guinea" weight="1.98055555556" />
+      <edge id="150" source="MARGIBI,Liberia" target="GRAND+BASSA,Liberia" weight="4.35277777778" />
+      <edge id="151" source="MARGIBI,Liberia" target="YOMOU,Guinea" weight="3.74777777778" />
+      <edge id="152" source="MARGIBI,Liberia" target="MACENTA,Guinea" weight="0.310555555556" />
+      <edge id="153" source="MARGIBI,Liberia" target="LOLA,Guinea" weight="1.79" />
+      <edge id="154" source="MARGIBI,Liberia" target="BOMI,Liberia" weight="6.14166666667" />
+      <edge id="155" source="MARGIBI,Liberia" target="RIVERCESS,Liberia" weight="0.482222222222" />
+      <edge id="156" source="MARGIBI,Liberia" target="BO,Sierra+Leone" weight="0.345" />
+      <edge id="157" source="MARGIBI,Liberia" target="NIMBA,Liberia" weight="1.92444444444" />
+      <edge id="158" source="MARGIBI,Liberia" target="PUJEHUN,Sierra+Leone" weight="1.38611111111" />
+      <edge id="159" source="DUBREKA,Guinea" target="BOMBALI,Sierra+Leone" weight="2.11944444444" />
+      <edge id="160" source="DUBREKA,Guinea" target="PORT+LOKO,Sierra+Leone" weight="5.17944444444" />
+      <edge id="161" source="DUBREKA,Guinea" target="WESTERN+RURAL,Sierra+Leone" weight="2.92944444444" />
+      <edge id="162" source="DUBREKA,Guinea" target="TONKOLILI,Sierra+Leone" weight="1.06833333333" />
+      <edge id="163" source="DUBREKA,Guinea" target="PITA,Guinea" weight="1.05166666667" />
+      <edge id="164" source="DUBREKA,Guinea" target="FRIA,Guinea" weight="6.87777777778" />
+      <edge id="165" source="DUBREKA,Guinea" target="TELIMELE,Guinea" weight="4.3" />
+      <edge id="166" source="DUBREKA,Guinea" target="KAMBIA,Sierra+Leone" weight="6.505" />
+      <edge id="167" source="DUBREKA,Guinea" target="KINDIA,Guinea" weight="6.84" />
+      <edge id="168" source="DUBREKA,Guinea" target="FORECARIAH,Guinea" weight="7.75611111111" />
+      <edge id="169" source="DUBREKA,Guinea" target="COYAH,Guinea" weight="9.04" />
+      <edge id="170" source="N'ZEREKORE,Guinea" target="BEYLA,Guinea" weight="5.63388888889" />
+      <edge id="171" source="N'ZEREKORE,Guinea" target="KEROUANE,Guinea" weight="3.66277777778" />
+      <edge id="172" source="N'ZEREKORE,Guinea" target="MACENTA,Guinea" weight="6.37555555556" />
+      <edge id="173" source="N'ZEREKORE,Guinea" target="LOLA,Guinea" weight="8.95833333333" />
+      <edge id="174" source="N'ZEREKORE,Guinea" target="YOMOU,Guinea" weight="7.00333333333" />
+      <edge id="175" source="N'ZEREKORE,Guinea" target="KAILAHUN,Sierra+Leone" weight="1.20611111111" />
+      <edge id="176" source="N'ZEREKORE,Guinea" target="GRAND+BASSA,Liberia" weight="1.61555555556" />
+      <edge id="177" source="N'ZEREKORE,Guinea" target="NIMBA,Liberia" weight="4.56277777778" />
+      <edge id="178" source="N'ZEREKORE,Guinea" target="GUECKEDOU,Guinea" weight="4.15611111111" />
+      <edge id="179" source="FORECARIAH,Guinea" target="BOMBALI,Sierra+Leone" weight="4.18222222222" />
+      <edge id="180" source="FORECARIAH,Guinea" target="KONO,Sierra+Leone" weight="0.181111111111" />
+      <edge id="181" source="FORECARIAH,Guinea" target="PITA,Guinea" weight="0.522777777778" />
+      <edge id="182" source="FORECARIAH,Guinea" target="PORT+LOKO,Sierra+Leone" weight="7.24222222222" />
+      <edge id="183" source="FORECARIAH,Guinea" target="WESTERN+RURAL,Sierra+Leone" weight="4.99277777778" />
+      <edge id="184" source="FORECARIAH,Guinea" target="TONKOLILI,Sierra+Leone" weight="3.13111111111" />
+      <edge id="185" source="FORECARIAH,Guinea" target="FRIA,Guinea" weight="4.95388888889" />
+      <edge id="186" source="FORECARIAH,Guinea" target="TELIMELE,Guinea" weight="3.3" />
+      <edge id="187" source="FORECARIAH,Guinea" target="KAMBIA,Sierra+Leone" weight="8.56833333333" />
+      <edge id="188" source="FORECARIAH,Guinea" target="COYAH,Guinea" weight="8.58444444444" />
+      <edge id="189" source="FORECARIAH,Guinea" target="KINDIA,Guinea" weight="6.31166666667" />
+      <edge id="190" source="FORECARIAH,Guinea" target="BO,Sierra+Leone" weight="1.93888888889" />
+      <edge id="191" source="GRAND+GEDEH,Liberia" target="SINOE,Liberia" weight="7.61111111111" />
+      <edge id="192" source="GRAND+GEDEH,Liberia" target="GRAND+BASSA,Liberia" weight="0.0455555555556" />
+      <edge id="193" source="GRAND+GEDEH,Liberia" target="RIVERCESS,Liberia" weight="0.417222222222" />
+      <edge id="194" source="GRAND+GEDEH,Liberia" target="MARYLAND,Liberia" weight="2.99" />
+      <edge id="195" source="GRAND+GEDEH,Liberia" target="GRAND+KRU,Liberia" weight="2.45277777778" />
+      <edge id="196" source="GRAND+GEDEH,Liberia" target="NIMBA,Liberia" weight="3.72166666667" />
+      <edge id="197" source="KEROUANE,Guinea" target="DALABA,Guinea" weight="5.13166666667" />
+      <edge id="198" source="KEROUANE,Guinea" target="BEYLA,Guinea" weight="7.11666666667" />
+      <edge id="199" source="KEROUANE,Guinea" target="YOMOU,Guinea" weight="2.26444444444" />
+      <edge id="200" source="KEROUANE,Guinea" target="MACENTA,Guinea" weight="6.64722222222" />
+      <edge id="201" source="KEROUANE,Guinea" target="KAILAHUN,Sierra+Leone" weight="1.44111111111" />
+      <edge id="202" source="KEROUANE,Guinea" target="LOLA,Guinea" weight="3.285" />
+      <edge id="203" source="KEROUANE,Guinea" target="SIGUIRI,Guinea" weight="2.61611111111" />
+      <edge id="204" source="KEROUANE,Guinea" target="KOUROUSSA,Guinea" weight="3.77722222222" />
+      <edge id="205" source="KEROUANE,Guinea" target="KANKAN,Guinea" weight="4.46333333333" />
+      <edge id="206" source="KEROUANE,Guinea" target="GUECKEDOU,Guinea" weight="4.39055555556" />
+      <edge id="207" source="TONKOLILI,Sierra+Leone" target="BOMBALI,Sierra+Leone" weight="5.935" />
+      <edge id="208" source="TONKOLILI,Sierra+Leone" target="KONO,Sierra+Leone" weight="4.38222222222" />
+      <edge id="209" source="TONKOLILI,Sierra+Leone" target="BO,Sierra+Leone" weight="5.835" />
+      <edge id="210" source="TONKOLILI,Sierra+Leone" target="PORT+LOKO,Sierra+Leone" weight="5.7" />
+      <edge id="211" source="TONKOLILI,Sierra+Leone" target="WESTERN+RURAL,Sierra+Leone" weight="4.24388888889" />
+      <edge id="212" source="TONKOLILI,Sierra+Leone" target="KAMBIA,Sierra+Leone" weight="4.30333333333" />
+      <edge id="213" source="TONKOLILI,Sierra+Leone" target="KAILAHUN,Sierra+Leone" weight="1.185" />
+      <edge id="214" source="TONKOLILI,Sierra+Leone" target="COYAH,Guinea" weight="1.87166666667" />
+      <edge id="215" source="TONKOLILI,Sierra+Leone" target="PUJEHUN,Sierra+Leone" weight="3.86888888889" />
+      <edge id="216" source="MACENTA,Guinea" target="DALABA,Guinea" weight="2.49111111111" />
+      <edge id="217" source="MACENTA,Guinea" target="BEYLA,Guinea" weight="6.40722222222" />
+      <edge id="218" source="MACENTA,Guinea" target="KAILAHUN,Sierra+Leone" weight="4.63055555556" />
+      <edge id="219" source="MACENTA,Guinea" target="LOLA,Guinea" weight="5.41444444444" />
+      <edge id="220" source="MACENTA,Guinea" target="YOMOU,Guinea" weight="4.96444444444" />
+      <edge id="221" source="MACENTA,Guinea" target="KANKAN,Guinea" weight="1.65333333333" />
+      <edge id="222" source="MACENTA,Guinea" target="KOUROUSSA,Guinea" weight="0.602222222222" />
+      <edge id="223" source="MACENTA,Guinea" target="NIMBA,Liberia" weight="1.03" />
+      <edge id="224" source="MACENTA,Guinea" target="GUECKEDOU,Guinea" weight="7.58" />
+      <edge id="225" source="PITA,Guinea" target="DINGUIRAYE,Guinea" weight="1.04388888889" />
+      <edge id="226" source="PITA,Guinea" target="KAMBIA,Sierra+Leone" weight="0.138888888889" />
+      <edge id="227" source="PITA,Guinea" target="TELIMELE,Guinea" weight="5.28277777778" />
+      <edge id="228" source="PITA,Guinea" target="DABOLA,Guinea" weight="3.63" />
+      <edge id="229" source="PITA,Guinea" target="KINDIA,Guinea" weight="3.91555555556" />
+      <edge id="230" source="PITA,Guinea" target="COYAH,Guinea" weight="1.82888888889" />
+      <edge id="231" source="PITA,Guinea" target="FRIA,Guinea" weight="2.28166666667" />
+      <edge id="232" source="PUJEHUN,Sierra+Leone" target="BOMBALI,Sierra+Leone" weight="2.37888888889" />
+      <edge id="233" source="PUJEHUN,Sierra+Leone" target="KONO,Sierra+Leone" weight="2.98888888889" />
+      <edge id="234" source="PUJEHUN,Sierra+Leone" target="WESTERN+RURAL,Sierra+Leone" weight="2.59166666667" />
+      <edge id="235" source="PUJEHUN,Sierra+Leone" target="PORT+LOKO,Sierra+Leone" weight="2.53777777778" />
+      <edge id="236" source="PUJEHUN,Sierra+Leone" target="KAILAHUN,Sierra+Leone" weight="3.65277777778" />
+      <edge id="237" source="PUJEHUN,Sierra+Leone" target="KAMBIA,Sierra+Leone" weight="1.14111111111" />
+      <edge id="238" source="PUJEHUN,Sierra+Leone" target="BO,Sierra+Leone" weight="7.83888888889" />
+      <edge id="239" source="PUJEHUN,Sierra+Leone" target="BOMI,Liberia" weight="4.55666666667" />
+      <edge id="240" source="PUJEHUN,Sierra+Leone" target="GUECKEDOU,Guinea" weight="0.468333333333" />
+      <edge id="241" source="KAMBIA,Sierra+Leone" target="BOMBALI,Sierra+Leone" weight="5.54944444444" />
+      <edge id="242" source="KAMBIA,Sierra+Leone" target="KONO,Sierra+Leone" weight="1.395" />
+      <edge id="243" source="KAMBIA,Sierra+Leone" target="BO,Sierra+Leone" weight="3.15222222222" />
+      <edge id="244" source="KAMBIA,Sierra+Leone" target="WESTERN+RURAL,Sierra+Leone" weight="6.20611111111" />
+      <edge id="245" source="KAMBIA,Sierra+Leone" target="PORT+LOKO,Sierra+Leone" weight="8.45611111111" />
+      <edge id="246" source="KAMBIA,Sierra+Leone" target="TELIMELE,Guinea" weight="2.02777777778" />
+      <edge id="247" source="KAMBIA,Sierra+Leone" target="FRIA,Guinea" weight="3.68166666667" />
+      <edge id="248" source="KAMBIA,Sierra+Leone" target="COYAH,Guinea" weight="7.31166666667" />
+      <edge id="249" source="KAMBIA,Sierra+Leone" target="KINDIA,Guinea" weight="5.03888888889" />
+      <edge id="250" source="COYAH,Guinea" target="BOMBALI,Sierra+Leone" weight="2.97777777778" />
+      <edge id="251" source="COYAH,Guinea" target="PORT+LOKO,Sierra+Leone" weight="6.03777777778" />
+      <edge id="252" source="COYAH,Guinea" target="WESTERN+RURAL,Sierra+Leone" weight="3.78833333333" />
+      <edge id="253" source="COYAH,Guinea" target="FRIA,Guinea" weight="6.22111111111" />
+      <edge id="254" source="COYAH,Guinea" target="TELIMELE,Guinea" weight="4.56722222222" />
+      <edge id="255" source="COYAH,Guinea" target="BO,Sierra+Leone" weight="0.734444444444" />
+      <edge id="256" source="COYAH,Guinea" target="DABOLA,Guinea" weight="0.276666666667" />
+      <edge id="257" source="COYAH,Guinea" target="KINDIA,Guinea" weight="7.57888888889" />
+      <edge id="258" source="NIMBA,Liberia" target="SINOE,Liberia" weight="1.33222222222" />
+      <edge id="259" source="NIMBA,Liberia" target="BEYLA,Guinea" weight="0.958333333333" />
+      <edge id="260" source="NIMBA,Liberia" target="YOMOU,Guinea" weight="4.16777777778" />
+      <edge id="261" source="NIMBA,Liberia" target="LOLA,Guinea" weight="4.88555555556" />
+      <edge id="262" source="NIMBA,Liberia" target="RIVERCESS,Liberia" weight="2.97888888889" />
+      <edge id="263" source="NIMBA,Liberia" target="GRAND+BASSA,Liberia" weight="2.61833333333" />
+      <edge id="264" source="BOMI,Liberia" target="KONO,Sierra+Leone" weight="0.0588888888889" />
+      <edge id="265" source="BOMI,Liberia" target="GBARPOLU,Liberia" weight="1.41166666667" />
+      <edge id="266" source="BOMI,Liberia" target="GRAND+BASSA,Liberia" weight="2.27555555556" />
+      <edge id="267" source="BOMI,Liberia" target="YOMOU,Guinea" weight="0.997222222222" />
+      <edge id="268" source="BOMI,Liberia" target="KAILAHUN,Sierra+Leone" weight="2.20833333333" />
+      <edge id="269" source="BOMI,Liberia" target="BO,Sierra+Leone" weight="3.53888888889" />
+      <edge id="270" source="GUECKEDOU,Guinea" target="KONO,Sierra+Leone" weight="1.65611111111" />
+      <edge id="271" source="GUECKEDOU,Guinea" target="DALABA,Guinea" weight="3.87611111111" />
+      <edge id="272" source="GUECKEDOU,Guinea" target="BEYLA,Guinea" weight="4.14777777778" />
+      <edge id="273" source="GUECKEDOU,Guinea" target="KAILAHUN,Sierra+Leone" weight="6.78388888889" />
+      <edge id="274" source="GUECKEDOU,Guinea" target="LOLA,Guinea" weight="3.15444444444" />
+      <edge id="275" source="GUECKEDOU,Guinea" target="YOMOU,Guinea" weight="2.705" />
+      <edge id="276" source="GUECKEDOU,Guinea" target="BO,Sierra+Leone" weight="1.43666666667" />
+      <edge id="277" source="GUECKEDOU,Guinea" target="KOUROUSSA,Guinea" weight="0.955555555556" />
+      <edge id="278" source="GUECKEDOU,Guinea" target="KANKAN,Guinea" weight="3.03833333333" />
+      <edge id="279" source="BOMBALI,Sierra+Leone" target="KONO,Sierra+Leone" weight="2.86555555556" />
+      <edge id="280" source="BOMBALI,Sierra+Leone" target="BO,Sierra+Leone" weight="4.31888888889" />
+      <edge id="281" source="BOMBALI,Sierra+Leone" target="PORT+LOKO,Sierra+Leone" weight="6.47611111111" />
+      <edge id="282" source="BOMBALI,Sierra+Leone" target="WESTERN+RURAL,Sierra+Leone" weight="3.95388888889" />
+      <edge id="283" source="BOMBALI,Sierra+Leone" target="KINDIA,Guinea" weight="2.43777777778" />
+      <edge id="284" source="SINOE,Liberia" target="GRAND+BASSA,Liberia" weight="0.353888888889" />
+      <edge id="285" source="SINOE,Liberia" target="RIVERCESS,Liberia" weight="1.48277777778" />
+      <edge id="286" source="SINOE,Liberia" target="MARYLAND,Liberia" weight="1.92888888889" />
+      <edge id="287" source="SINOE,Liberia" target="GRAND+KRU,Liberia" weight="1.39166666667" />
+      <edge id="288" source="DALABA,Guinea" target="KOUROUSSA,Guinea" weight="6.76111111111" />
+      <edge id="289" source="DALABA,Guinea" target="BEYLA,Guinea" weight="2.41833333333" />
+      <edge id="290" source="DALABA,Guinea" target="DINGUIRAYE,Guinea" weight="1.75166666667" />
+      <edge id="291" source="DALABA,Guinea" target="KAILAHUN,Sierra+Leone" weight="0.779444444444" />
+      <edge id="292" source="DALABA,Guinea" target="SIGUIRI,Guinea" weight="5.57166666667" />
+      <edge id="293" source="DALABA,Guinea" target="DABOLA,Guinea" weight="2.62888888889" />
+      <edge id="294" source="DALABA,Guinea" target="KANKAN,Guinea" weight="8.74055555556" />
+      <edge id="295" source="BEYLA,Guinea" target="LOLA,Guinea" weight="5.99111111111" />
+      <edge id="296" source="BEYLA,Guinea" target="YOMOU,Guinea" weight="3.76833333333" />
+      <edge id="297" source="BEYLA,Guinea" target="KAILAHUN,Sierra+Leone" weight="1.20555555556" />
+      <edge id="298" source="BEYLA,Guinea" target="KOUROUSSA,Guinea" weight="1.02611111111" />
+      <edge id="299" source="BEYLA,Guinea" target="KANKAN,Guinea" weight="1.71222222222" />
+      <edge id="300" source="YOMOU,Guinea" target="LOLA,Guinea" weight="6.00166666667" />
+      <edge id="301" source="YOMOU,Guinea" target="RIVERCESS,Liberia" weight="0.418333333333" />
+      <edge id="302" source="YOMOU,Guinea" target="GRAND+BASSA,Liberia" weight="2.57777777778" />
+      <edge id="303" source="SIGUIRI,Guinea" target="DINGUIRAYE,Guinea" weight="1.92555555556" />
+      <edge id="304" source="SIGUIRI,Guinea" target="DABOLA,Guinea" weight="1.72777777778" />
+      <edge id="305" source="SIGUIRI,Guinea" target="KANKAN,Guinea" weight="4.9" />
+      <edge id="306" source="SIGUIRI,Guinea" target="KOUROUSSA,Guinea" weight="5.86" />
+      <edge id="307" source="KONO,Sierra+Leone" target="KAILAHUN,Sierra+Leone" weight="4.91777777778" />
+      <edge id="308" source="KONO,Sierra+Leone" target="WESTERN+RURAL,Sierra+Leone" weight="1.31777777778" />
+      <edge id="309" source="KONO,Sierra+Leone" target="PORT+LOKO,Sierra+Leone" weight="2.77388888889" />
+      <edge id="310" source="KONO,Sierra+Leone" target="BO,Sierra+Leone" weight="3.91111111111" />
+      <edge id="311" source="TELIMELE,Guinea" target="PORT+LOKO,Sierra+Leone" weight="0.765555555556" />
+      <edge id="312" source="TELIMELE,Guinea" target="FRIA,Guinea" weight="6.94611111111" />
+      <edge id="313" source="TELIMELE,Guinea" target="KINDIA,Guinea" weight="6.88777777778" />
+      <edge id="314" source="FRIA,Guinea" target="PORT+LOKO,Sierra+Leone" weight="2.44388888889" />
+      <edge id="315" source="FRIA,Guinea" target="WESTERN+RURAL,Sierra+Leone" weight="0.194444444444" />
+      <edge id="316" source="FRIA,Guinea" target="KINDIA,Guinea" weight="4.88666666667" />
+      <edge id="317" source="BO,Sierra+Leone" target="WESTERN+RURAL,Sierra+Leone" weight="4.53277777778" />
+      <edge id="318" source="BO,Sierra+Leone" target="KAILAHUN,Sierra+Leone" weight="4.73277777778" />
+      <edge id="319" source="BO,Sierra+Leone" target="PORT+LOKO,Sierra+Leone" weight="4.47888888889" />
+      <edge id="320" source="DABOLA,Guinea" target="DINGUIRAYE,Guinea" weight="7.01777777778" />
+      <edge id="321" source="DABOLA,Guinea" target="KOUROUSSA,Guinea" weight="5.75777777778" />
+      <edge id="322" source="DABOLA,Guinea" target="KINDIA,Guinea" weight="2.45722222222" />
+      <edge id="323" source="DABOLA,Guinea" target="KANKAN,Guinea" weight="2.00333333333" />
+      <edge id="324" source="GRAND+BASSA,Liberia" target="LOLA,Guinea" weight="1.42444444444" />
+      <edge id="325" source="GRAND+BASSA,Liberia" target="RIVERCESS,Liberia" weight="4.66888888889" />
+      <edge id="326" source="PORT+LOKO,Sierra+Leone" target="WESTERN+RURAL,Sierra+Leone" weight="7.58833333333" />
+      <edge id="327" source="PORT+LOKO,Sierra+Leone" target="KINDIA,Guinea" weight="3.77666666667" />
+      <edge id="328" source="WESTERN+RURAL,Sierra+Leone" target="KINDIA,Guinea" weight="1.49666666667" />
+      <edge id="329" source="GRAND+KRU,Liberia" target="MARYLAND,Liberia" weight="6.90777777778" />
+      <edge id="330" source="DINGUIRAYE,Guinea" target="KANKAN,Guinea" weight="1.12888888889" />
+      <edge id="331" source="DINGUIRAYE,Guinea" target="KOUROUSSA,Guinea" weight="4.88333333333" />
+      <edge id="332" source="LOLA,Guinea" target="KAILAHUN,Sierra+Leone" weight="0.22" />
+      <edge id="333" source="KOUROUSSA,Guinea" target="KANKAN,Guinea" weight="6.21833333333" />
+    </edges>
+  </graph>
+</gexf>
